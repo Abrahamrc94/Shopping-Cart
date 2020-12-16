@@ -116,9 +116,16 @@
               "devServerTarget": "my-store:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "my-store"
+  "defaultProject": "my-store",
+  "cli": {
+    "analytics": "06dc974d-8bde-4e2e-8c98-27763529ba28"
+  }
 }
